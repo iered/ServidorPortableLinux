@@ -69,7 +69,7 @@ wlan_o_eth()
 	echo " ---------- "
 	echo "INSTALANDO PAQUETES "
 	echo " ---------- "
-	apt-get -o Debug::pkgProblemResolver=yes -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" --force-yes -fuy install  pdfmod libreoffice libreoffice-l10n-es libreoffice-help-es myspell-es gimp inkscape audacity aptoncd vlc gparted apache2 apache2-utils apache2-mpm-prefork apache2-mpm-worker apache2-mpm-event libapache2-mod-apparmor libapache2-mod-auth-mysql libapache2-mod-php5filter php5 php5-fpm mcrypt php5-mcrypt mysql-server phpmyadmin freemind pdftk apt-show-versions openssh-server openssh-client nmap nast chromium-browser chromium-browser-l10n openshot openshot-doc fbreader gnome-screenshot gnome-system-monitor lubuntu-restricted-extras wine icedtea-plugin p7zip-full p7zip-rar pavucontrol
+	apt-get -o Debug::pkgProblemResolver=yes -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" --force-yes -fuy install  pdfmod libreoffice libreoffice-l10n-es libreoffice-help-es myspell-es gimp inkscape audacity aptoncd vlc gparted apache2 apache2-utils apache2-mpm-prefork apache2-mpm-worker apache2-mpm-event libapache2-mod-apparmor libapache2-mod-auth-mysql libapache2-mod-php5filter php5 php5-fpm mcrypt php5-mcrypt mysql-server phpmyadmin freemind pdftk apt-show-versions openssh-server openssh-client nmap nast chromium-browser chromium-browser-l10n openshot openshot-doc fbreader gnome-screenshot gnome-system-monitor lubuntu-restricted-extras wine icedtea-plugin p7zip-full p7zip-rar pavucontrol curl
 	
 	umount /media/aptoncd 
 	rm -rf /media/aptoncd
