@@ -1,0 +1,4 @@
+sh /var/www/html/init_blog.sh &
+/var/www/html/kiwix-0.9-rc2+wikipedia_es_all_nopic_02_2014/kiwix-linux/bin/./kiwix-serve --port=8000 --daemon /var/www/html/kiwix-0.9-rc2+wikipedia_es_all_nopic_02_2014/data/content/wikipedia_es_all_nopic_02_2014.zim
+
+

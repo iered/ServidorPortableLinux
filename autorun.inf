@@ -1,0 +1,9 @@
+[autorun]
+open=instalar.sh
+icon=sp.ico
+label=Servidor portable ieRed
+
+[Content]
+MusicFiles=false
+PictureFiles=false
+VideoFiles=false
